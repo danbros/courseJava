@@ -2,7 +2,7 @@ package app.math;
 
 import java.util.Locale;
 import java.util.Scanner;
-import app.math.Bhaskara;
+import app.math.SubBhaskara;
 
 
 public class RunBhaskara {
@@ -17,7 +17,7 @@ public class RunBhaskara {
 		int b = sc.nextInt();
 		int c = sc.nextInt();
 		
-		Bhaskara bk = new Bhaskara(a, b, c);
+		SubBhaskara bk = new SubBhaskara(a, b, c);
 		
 		System.out.print("Delta: " + bk.delta());	
 		if(bk.delta() > 0)

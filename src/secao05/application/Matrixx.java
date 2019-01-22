@@ -39,7 +39,7 @@ public class Matrixx {
 
 			}
 		}
-
+		//Another ay of calculated the index of a position
 		// int x = 42;
 		// int[] matriz = {1, 2, 3, 42};
 
